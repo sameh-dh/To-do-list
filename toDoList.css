@@ -1,0 +1,273 @@
+body{
+   background-color: rgb(254, 254, 254);
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+.image1{
+width: 100%;
+height: 100%;
+position:absolute;
+opacity: 0.7;
+padding: none;
+margin: none;
+display: flex;
+}
+.image2{
+    width: 30%;
+    height: 80%;
+    position:absolute;
+    opacity: 0.3;
+    padding: none;
+    margin: none;
+    display: flex;
+    margin-top: 100px
+    
+    }
+    .image3{
+        width: 35%;
+        height: 80%;
+        position:absolute;
+        opacity: 0.6;
+        padding: none;
+        margin: none;
+        display: flex;
+        margin-top: 100px;
+        
+        
+        }
+        /* .image4{
+            width: 30%;
+            height: 80%;
+            position:absolute;
+            opacity: 0.3;
+            padding: none;
+            margin: none;
+            display: flex;
+            margin-top: 100px;
+            margin-left: 70%;
+            
+            } */
+.input{
+    position: relative;    
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border:1px dashed #8f705b;
+    width: 300px;
+    height: 40px;
+   
+   
+}
+
+.welcoming h1,p ,h2{
+    position: relative;
+ text-align: center;
+ color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+.profile{
+    /* position: relative; */
+    background-image:  linear-gradient( #d8a6b8 30%,  #ffc8dd );
+    border: 7px solid  #ebcfbc;
+    border-radius: 40px;
+    width: 800px;
+    margin-left: 500px;
+    height: 600px;
+    padding:10px 10px ;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 25px ;
+    font-weight: bold;
+    /* opacity: 0.6; */
+
+
+
+}
+.welcoming{
+   
+    background-color: #8f705b;
+    height: 150px;
+
+}
+.welcoming h1{
+    position: relative;
+    padding: 50px;
+   
+}
+.button{
+    position: relative;
+    background-image:  linear-gradient(-30deg, #d8a6b8 30%,  #ffc8dd 70% );
+    border: #b08968;
+    width: 400px;
+    height: 80px;
+    margin-top: 80px;
+    cursor:pointer;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px ;
+    opacity: 0.8;
+
+}
+/* toDoList css */
+/* body {
+    background-image: url("study.jpg");
+    background-color: #cccccc;
+    
+  } */
+  .taskInput{
+      width: 500px;
+  }
+  .tasks{
+    position: relative; 
+      margin-top:60px;
+      display: flex;
+      justify-content: center;
+      padding: none;
+  }
+  .removeDone{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    
+  }
+ .taskText ul, .taskText li{
+    position: relative; 
+     padding: 0px 0px;
+     text-decoration: none;
+     list-style-type: none;
+    
+     font-size: 20px;
+     color: black;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #e5e5e5;
+    
+    width: 690px; 
+    height: 40px;
+    
+
+ }
+ .inputProject{
+    position: relative; 
+    height: 50px;
+    width:200px;
+ }
+ .taskText{
+    position: relative; 
+    margin-top: 20px;
+    height: 50px;  
+
+
+ }
+ .allEvents{
+     border: 3px solid #a789a8;
+  margin-left:700px ;
+    width: 700px;
+    height: fit-content;
+    margin: none;
+    background-color: #b68cb8;
+    position: relative;
+     border-top:#b68cb8 solid; 
+opacity: 0.8;
+   
+    
+   
+
+ }
+ .header{
+   
+     background-color: #ffd8be;
+     height: 150px;
+     width: 700px;
+     margin-left: 700px;
+     border: 2px #ecc1c1  solid;
+     border-bottom: none;
+     margin-top: none;
+
+ }
+ .projects{
+    position: relative; 
+     position: absolute;
+ }
+ .projects ol li {
+    position: relative; 
+     width: 300px;
+     height: 50px;
+     background-color: #b68cb8;
+text-align: center;
+font-size: 20px;
+     color: #e5e5e5;
+     margin-top: 50px;
+ }
+ .addProject{
+     position: relative;
+    background-image:  linear-gradient(-30deg, #d8a6b8 30%,  #ffc8dd 70% );
+    border: #d58ba6;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px ;
+    height: 50px;
+  
+
+ }
+ ol li.active{
+       position: relative; 
+     background-color: #9d59a1;
+ }
+
+#result ,.result{
+    position: relative; 
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px ;
+    text-align: center;
+ 
+}
+.add{
+    position: relative;
+    background-image:  linear-gradient(-30deg, #d8a6b8 30%,  #ffc8dd 70% );
+    border: #d58ba6;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px ;
+    height: 50px;
+  
+}
+.done{
+    position: relative;
+    background-image:  linear-gradient(-30deg, #d8a6b8 30%,  #ffc8dd 70% );
+    border: #d58ba6;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px ;
+    height: 50px;
+  
+}
+.remove{
+    position: relative;
+    background-image:  linear-gradient(-30deg, #d8a6b8 30%,  #ffc8dd 70% );
+    border: #d58ba6;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 20px ;
+    height: 50px;
+  
+}

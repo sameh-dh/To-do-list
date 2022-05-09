@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="toDoList.css"  >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <img class="image1" src="background7.jpg">
+    <img class="image3" src="background13.jpg">
+    <!-- projects -->
+    <input type="text" class="inputProject">
+    <button class="addProject">
+        Add New project
+            </button>
+            
+    <div class="projects">
+        <ol ></ol>
+        
+    </div>
+   
+<!-- tasks -->
+
+    <div class="header"><h1 class='result'> Welcome...  <span id="result"></span></h1></div>
+    <div class="allEvents">
+    <div class="tasks">
+
+<input type="text"  class="taskInput">
+<button class="add">Add task</button>
+</div>
+<div class="taskText">  
+<ul></ul>
+</div>
+<div class="removeDone">
+<button class="remove">Remove Task</button>
+<button class="done">Done </button>
+</div>
+</div>
+
+<script>
+    document.getElementById('result').innerHTML=localStorage.getItem("text")
+</script>
+<script src="toDoList.js" ></script>
+
+</body>
+</html>

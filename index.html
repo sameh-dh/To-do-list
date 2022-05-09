@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="toDoList.css"  >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <img class="image1" src="background7.jpg">
+    <img class="image2" src="background11.jpg">
+    <!-- <img class="image4" src="background11.jpg"> -->
+<div class="all">
+    <div class="welcoming">
+        <h1 id="h1">welcome to your To Do List</h1>
+    </div><br>
+    <div class="profile">
+        <h2>let's create your profile</h2>
+        <form action="toDoList.html">
+    <p>First Name</p>
+   <input type="text" id="firstName" name="first name" value="" class="input">
+   <p>Second Name</p>
+<input type="text" name="first name" value="" class="input">
+<p>Password</p>
+<input type="password" name="first name" value="" class="input"><br>
+<a href="toDoList.html"><button class="button input" onclick="passValues()">create profile and start</button></a>
+    </div>
+</form>
+</div>
+<script>
+function passValues(){
+    var first=document.getElementById('firstName').value
+    localStorage.setItem("text",first)
+    return false
+}
+</script>
+    <script src="toDoList.js" ></script>
+</body>
+</html>
